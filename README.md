@@ -31,15 +31,15 @@ Dự án được thiết kế theo tiêu chuẩn C4 Model để đảm bảo t�
 
 ### 1. Cấp độ Ngữ cảnh (System Context)
 Mô tả sự tương tác giữa Người dùng và Hệ thống Todo với SQL Server.
-![System Context](images/context.png)
+![System Context](/Systemcontext.png)
 
 ### 2. Cấp độ Container
 Chi tiết về môi trường thực thi .NET 9.0 bên trong ứng dụng.
-![Container Diagram](images/container.png)
+![Container Diagram](/Containerview.png)
 
 ### 3. Cấp độ Thành phần (Component)
 Chi tiết các lớp xử lý bên trong như `TodoUI`, `TodoService`, `TodoRepository` và `AppDbContext`.
-![Component Diagram](c4model.png)
+![Component Diagram](/Componetview.png)
 
 ## 🛠 Hướng dẫn cài đặt
 
